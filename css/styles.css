@@ -70,9 +70,9 @@ img {
 
 .conteiner {
   width: 100%;
-  max-width: 1158px;
-  padding-right: 15px;
-  padding-left: 15px;
+  max-width: 428px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -86,27 +86,27 @@ body {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-conteiner {
+  min-height: 70px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation {
-  display: flex;
-  margin-right: auto;
+  padding: 24px 0px;
 }
 
 .navigation-list {
-  display: flex;
-  gap: 40px;
-  align-items: center;
+  display: none;
 }
 
 .header-adress-list {
-  display: flex;
-  gap: 40px;
+  display: none;
 }
 
 .navigation-list-thumb {
@@ -122,13 +122,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
-  padding: 24px 0;
 }
 
 .header-logo-begin {
   color: #4d5ae5;
-  padding: 24px 0;
 }
 
 .header-link {
@@ -142,23 +139,19 @@ body {
   position: relative;
 }
 
-.direct-page::after {
-  display: block;
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
-}
-
-.direct-page {
-  color: #404bbf;
-}
-
 .header-link:is(:hover, :focus) {
   color: #404bbf;
+}
+
+.header-mob-menu-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  height: 22px;
+}
+
+.header-mob-menu-img {
+  stroke: #2e2f42;
 }
 
 .header-adress-link {
@@ -166,7 +159,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0;
+  /* padding: 24px 0; */
   transition: var(--header-link-transition);
 }
 
@@ -181,8 +174,8 @@ body {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   text-align: center;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -194,12 +187,11 @@ body {
 }
 
 .hero-header {
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--hero-header-color);
-  margin-bottom: 48px;
-  width: 496px;
+  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -215,7 +207,7 @@ body {
   background-color: #4d5ae5;
   border-style: none;
   border-radius: 4px;
-  min-width: 160px;
+  min-width: 169px;
   height: 56px;
   transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }

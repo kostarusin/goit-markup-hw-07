@@ -1,0 +1,39 @@
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .header-adress-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .header-adress-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding: 24px 0;
+    transition: var(--header-link-transition);
+  }
+
+  .header-adress-list {
+    padding: 0;
+  }
+
+  .header {
+    box-shadow: none;
+  }
+
+  .hero-item {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-header {
+    margin-bottom: 48px;
+  }
+}

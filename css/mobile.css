@@ -3,6 +3,14 @@
     width: 320px;
   }
 }
+@media screen and (min-width: 428px) {
+  .subscribe-input {
+    width: 396px;
+  }
+}
 
 @media screen and (min-width: 480px) {
+  .features-text {
+    width: 396px;
+  }
 }

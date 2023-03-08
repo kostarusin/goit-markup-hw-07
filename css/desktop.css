@@ -5,6 +5,8 @@
     padding-left: 15px;
   }
 
+  /*-------------Header------------*/
+
   .header-adress-list {
     display: flex;
     gap: 40px;
@@ -28,6 +30,8 @@
     box-shadow: none;
   }
 
+  /*-----------------Hero-----------*/
+
   .hero-item {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -35,5 +39,99 @@
 
   .hero-header {
     margin-bottom: 48px;
+  }
+
+  /*---------------Features----------------*/
+
+  .features-item {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .features-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .features-icon-box {
+    display: flex;
+  }
+
+  .features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .features-text {
+    font-weight: 400;
+  }
+
+  /*--------------Work description--------------*/
+
+  .Work-description-item {
+    display: block;
+  }
+
+  /*-----------------Our team------------------------*/
+
+  .our-team-item {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .our-team-gallery {
+  }
+
+  .our-team-element {
+    width: calc((100% - 72px) / 4);
+  }
+
+  /* ------------Customers--------------- */
+
+  .customers-item {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    width: auto;
+    column-gap: 24px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 120px) / 6);
+  }
+
+  /*-----------------Footer-------------*/
+
+  .footer-item {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-box {
+    flex-wrap: nowrap;
+    column-gap: 0;
+    gap: 0;
+  }
+
+  .footer-logo-thumb {
+    margin-left: 0;
+  }
+
+  .social-media-thumb {
+    width: 208px;
+    margin-left: 120px;
+  }
+
+  .subscribe-thumb {
+    margin-left: 80px;
+  }
+
+  .subscribe-form {
+    width: 453px;
+    column-gap: 0;
+    justify-content: space-between;
   }
 }

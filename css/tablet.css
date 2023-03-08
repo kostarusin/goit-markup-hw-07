@@ -3,7 +3,7 @@
     max-width: 768px;
   }
 
-  /* Header */
+  /*-------------Header---------------*/
 
   .header-mob-menu-btn {
     display: none;
@@ -54,7 +54,7 @@
     letter-spacing: 0.04em;
   }
 
-  /* Hero */
+  /*----------------Hero------------------*/
 
   .hero-item {
     padding-bottom: 108px;
@@ -65,5 +65,90 @@
     line-height: 1.07;
     margin-bottom: 40px;
     width: 496px;
+  }
+
+  /*------------Features--------------*/
+
+  .features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .features-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .features-title {
+    text-align: start;
+  }
+
+  .features-text {
+    width: auto;
+  }
+
+  /*-----------------Our team------------------------*/
+
+  .our-team-item {
+    padding-bottom: 104px;
+  }
+
+  .our-team-gallery {
+    flex-direction: row;
+    row-gap: 64px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
+  .our-team-element {
+    width: calc((100% - 208px) / 2);
+  }
+
+  /* ------------Customers--------------- */
+
+  .customers-list {
+    width: 552px;
+    margin: auto;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  /*-----------------Footer-------------*/
+
+  .footer-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 24px;
+  }
+
+  .footer-logo-thumb {
+    margin-left: 92px;
+  }
+
+  .footer-logo {
+    justify-content: start;
+  }
+
+  .social-media-titel {
+    text-align: left;
+  }
+
+  .subscribe-thumb {
+    margin-left: 92px;
+  }
+
+  .subscribe-titel {
+    text-align: left;
+  }
+  .subscribe-form {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  .subscribe-input {
+    width: 264px;
   }
 }

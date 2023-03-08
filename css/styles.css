@@ -159,7 +159,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* padding: 24px 0; */
   transition: var(--header-link-transition);
 }
 
@@ -203,7 +202,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-
   background-color: #4d5ae5;
   border-style: none;
   border-radius: 4px;
@@ -219,8 +217,8 @@ body {
 /*--------------Features--------------*/
 
 .features-item {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .features-icon-box {
@@ -232,6 +230,7 @@ body {
   height: 112px;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 
 .features-icon {
@@ -239,31 +238,36 @@ body {
   height: 64px;
   fill: #2e2f42;
 }
+
 .features-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
 .features-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--paragraph-header-color);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .features-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
 }
 
 /*--------------Work description--------------*/
 
 .Work-description-item {
   padding-bottom: 120px;
+  display: none;
 }
 
 .Work-description-header {
@@ -290,8 +294,8 @@ body {
 .our-team-item {
   background-color: var(--our-team-background-color);
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 128px;
 }
 
 .our-team-header {
@@ -305,7 +309,10 @@ body {
 
 .our-team-gallery {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 72px;
 }
 
 .our-team-wrap {
@@ -318,7 +325,7 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  width: 264px;
 }
 
 .our-team-title {
@@ -369,8 +376,8 @@ body {
 /* ------------Customers--------------- */
 
 .customers-item {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-header {
@@ -385,14 +392,16 @@ body {
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  row-gap: 72px;
 }
 
 .customers-list-item {
-  width: calc((100% -120px) / 6);
+  width: calc((100% - 16px) / 2);
   height: 88px;
-  margin-bottom: 8px;
 }
 
 .customers-list-link {
@@ -535,8 +544,8 @@ body {
 
 .footer-item {
   background-color: var(--footer-background-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-text {
@@ -553,7 +562,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   display: flex;
-  align-items: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -566,15 +575,13 @@ body {
 
 .footer-box {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 72px;
 }
 
 .footer-logo-thumb {
   width: 264px;
-}
-
-.social-media-thumb {
-  width: 208px;
-  margin-left: 120px;
 }
 
 .social-media-titel {
@@ -584,6 +591,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   padding-bottom: 16px;
+  text-align: center;
 }
 
 .social-media-list {
@@ -613,8 +621,7 @@ body {
 }
 
 .subscribe-thumb {
-  width: 453px;
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .subscribe-titel {
@@ -624,11 +631,15 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   padding-bottom: 16px;
+  text-align: center;
 }
 
 .subscribe-form {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 16px;
 }
 .subscribe-input {
   font-size: 12px;

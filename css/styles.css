@@ -428,16 +428,21 @@ body {
 /*-----------Work Proposal Filter-------------*/
 
 .work-prop-item {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  /* padding-top: 96px;
+  padding-bottom: 120px; */
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .work-prop-btn-block {
+  width: 264px;
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 16px;
   justify-content: center;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 
 .work-prop-btn {
@@ -473,6 +478,7 @@ body {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  justify-content: center;
 }
 
 .work-prop-list-link {
@@ -516,7 +522,8 @@ body {
 .work-prop-element {
   height: 420px;
   background: #ffffff;
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
+  width: calc(100%-32px);
 }
 
 .work-prop-list-link:is(:hover, :focus) {

@@ -261,6 +261,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /*--------------Work description--------------*/
@@ -428,20 +429,19 @@ body {
 /*-----------Work Proposal Filter-------------*/
 
 .work-prop-item {
-  /* padding-top: 96px;
-  padding-bottom: 120px; */
   padding-top: 48px;
   padding-bottom: 48px;
 }
 
 .work-prop-btn-block {
-  width: 264px;
+  width: auto;
+  height: 96px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
   column-gap: 24px;
   row-gap: 16px;
-  justify-content: center;
+  justify-content: start;
   margin-bottom: 48px;
 }
 
@@ -454,7 +454,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   padding: 12px 24px;
-  height: 48px;
+  height: 40px;
   color: #4d5ae5;
   background-color: #f4f4fd;
 
@@ -522,7 +522,6 @@ body {
 .work-prop-element {
   height: 420px;
   background: #ffffff;
-  /* width: calc((100% - 48px) / 3); */
   width: calc(100%-32px);
 }
 

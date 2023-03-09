@@ -134,4 +134,24 @@
     column-gap: 0;
     justify-content: space-between;
   }
+
+  /*-----------Work Proposal-------------*/
+
+  .work-prop-item {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .work-prop-btn-block {
+    margin-bottom: 72px;
+  }
+
+  .work-prop-list-block {
+    justify-content: center;
+    row-gap: 48px;
+  }
+
+  .work-prop-element {
+    width: calc((100% - 48px) / 3);
+  }
 }

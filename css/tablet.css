@@ -151,4 +151,31 @@
   .subscribe-input {
     width: 264px;
   }
+
+  /*-----------Work Proposal-------------*/
+
+  .work-prop-item {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .work-prop-btn-block {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 64px;
+    height: auto;
+  }
+
+  .work-prop-btn {
+    height: 48px;
+  }
+
+  .work-prop-list-block {
+    justify-content: start;
+    row-gap: 72px;
+  }
+
+  .work-prop-element {
+    width: calc((100% - 24px) / 2);
+  }
 }

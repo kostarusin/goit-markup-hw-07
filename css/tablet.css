@@ -178,4 +178,15 @@
   .work-prop-element {
     width: calc((100% - 24px) / 2);
   }
+
+  /* -----------Modal window------------ */
+
+  .modal-order {
+    width: 408px;
+    padding: 24px;
+  }
+
+  .form-list {
+    width: 360px;
+  }
 }

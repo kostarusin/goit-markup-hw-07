@@ -18,4 +18,16 @@
   .features-text {
     text-align: left;
   }
+
+  .modal-order {
+    width: 392px;
+  }
+
+  .form-list {
+    width: 360px;
+  }
+
+  .form-accept-text {
+    justify-content: start;
+  }
 }

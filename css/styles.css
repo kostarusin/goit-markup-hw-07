@@ -171,7 +171,7 @@ body {
 .hero-item {
   background-color: var(--hero-background-color);
   max-width: 428px;
-  max-height: 432px;
+  height: 432px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 112px;
@@ -184,6 +184,18 @@ body {
     url(../images/studio/background-image/people-office-mob-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-item {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/studio/background-image/people-office-mob-x.jpg);
+  }
 }
 
 .hero-header {

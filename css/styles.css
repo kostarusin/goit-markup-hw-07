@@ -194,7 +194,8 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/studio/background-image/office-retina.jpg);
+      url(../images/studio/background-image/office-mob-retina.jpg);
+    background-size: cover;
   }
 }
 
@@ -234,22 +235,8 @@ body {
   padding-bottom: 96px;
 }
 
-.features-icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f4f4fd;
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  display: none;
-}
-
 .features-icon {
-  width: 64px;
-  height: 64px;
-  fill: #2e2f42;
+  display: none;
 }
 
 .features-list {
@@ -280,27 +267,7 @@ body {
 /*--------------Work description--------------*/
 
 .Work-description-item {
-  padding-bottom: 120px;
   display: none;
-}
-
-.Work-description-header {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--section-header-color);
-  margin-bottom: 72px;
-  text-align: center;
-}
-
-.Work-description-gallery {
-  display: flex;
-  gap: 24px;
-}
-
-.Work-description-element {
-  width: calc((100% - 48px) / 3);
 }
 
 /*-----------------Our team------------------------*/

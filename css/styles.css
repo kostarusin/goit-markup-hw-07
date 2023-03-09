@@ -69,7 +69,6 @@ img {
 }
 
 .conteiner {
-  width: 100%;
   max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
@@ -435,7 +434,6 @@ body {
 
 .work-prop-btn-block {
   width: auto;
-  height: 96px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -490,7 +488,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  width: 360px;
+  width: 100%;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;

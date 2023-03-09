@@ -19,6 +19,10 @@
     text-align: left;
   }
 
+  .work-prop-card {
+    width: 360px;
+  }
+
   .modal-order {
     width: 392px;
   }

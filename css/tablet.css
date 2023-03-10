@@ -195,6 +195,7 @@
   }
 
   .work-prop-element {
+    height: 420px;
     width: calc((100% - 24px) / 2);
   }
 

@@ -615,9 +615,9 @@ body {
 }
 
 .work-prop-element {
-  height: 420px;
+  height: 400px;
   background: #ffffff;
-  width: calc(100%-32px);
+  width: 100%;
 }
 
 .work-prop-list-link:is(:hover, :focus) {

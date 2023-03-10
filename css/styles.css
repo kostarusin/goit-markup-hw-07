@@ -530,7 +530,7 @@ body {
 }
 
 .work-prop-btn-block {
-  width: auto;
+  width: 320px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;

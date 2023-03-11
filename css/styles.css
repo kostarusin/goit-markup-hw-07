@@ -597,23 +597,6 @@ body {
   overflow: hidden;
 }
 
-.work-prop-card-wrap-text {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #f4f4fd;
-  background-color: #4d5ae5;
-  padding: 40px 32px 164px;
-  transition: var(--transform);
-  transform: translateY(100%);
-}
-
-.work-prop-list-link:is(:hover, :focus) .work-prop-card-wrap-text {
-  transform: translateY(0);
-}
-
 .work-prop-element {
   height: 400px;
   background: #ffffff;
@@ -632,6 +615,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--paragraph-header-color);
   margin-bottom: 8px;
+}
+
+.work-prop-card-wrap-text {
+  display: none;
 }
 
 .work-prop-text {
